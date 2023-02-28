@@ -1,0 +1,16 @@
+.orders-wrapper{
+    list-style-type: none;
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.order-details{
+    display: flex;
+    margin-left: 24px;
+}
+p{
+    flex: 1;
+}
+.status-text{
+    font-weight: bold;
+}

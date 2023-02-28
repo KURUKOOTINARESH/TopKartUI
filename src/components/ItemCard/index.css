@@ -1,0 +1,83 @@
+.card{
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    height: 380px;
+    width: 200px;
+    box-shadow: 0px 0px 4px 0px #808080;
+    transition: 0.5s;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.disable-card{
+    background-color: #80808058;
+}
+.disable-card:hover{
+    cursor: not-allowed;
+    transform: scale(1.0);
+}
+h1{
+    font-size: 24px;
+}
+.item-icon{
+    width: 24px;
+    height: 24px;
+    margin-right: 24px;
+}
+.item-wrapper{
+    display: flex;
+    align-items: center;
+}
+.price{
+    font-size: 20px;
+    font-weight: bold;
+}
+.actual-price{
+    font-size: 12px;
+    text-decoration: line-through;
+}
+.expired{
+    color: red;
+}
+.coming-soon{
+    color: green;
+}
+.time-text{
+    font-size: 12px;
+}
+.time{
+    font-size: 16px;
+    font-weight: bold;
+}
+.place-order-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quantity-wrapper{
+    display: flex;
+    margin-right: 32px;
+    justify-content: center;
+    align-items: center;
+}
+.quantity-selector{
+    width: 32px;
+    height: 28px;
+    margin-left: 8px;
+}
+.place-order-button{
+    background-color: rgb(24, 102, 192);
+    border: none;
+    border-radius: 8px;
+    width: 100px;
+    height: 40px;
+    color: white;
+}
+.place-order-button:hover{
+    cursor: pointer;
+}
+.disable-action:hover{
+    cursor: not-allowed;
+}
